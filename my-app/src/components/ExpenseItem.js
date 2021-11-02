@@ -11,9 +11,7 @@ function ExpenseItem(props) {
             <div className='expense-item__description'>
                 <h2>{props.title}</h2>
                 <h1>{props.id} </h1>
-                <p>Dare</p>
-
-                <h4>Milevski</h4>
+                dare
                 <div className='expense-item__price'>$ {expenseAmount}</div>
             </div>
         </div>
